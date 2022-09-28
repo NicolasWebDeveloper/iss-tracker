@@ -9,7 +9,7 @@ const controlMapUpdate = async () => {
     await wait(1);
     controlMapUpdate();
   } catch (err) {
-    console.log('✨' + err);
+    console.error('🔥' + err);
   }
 };
 
